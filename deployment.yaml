@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: redux-saga-kubernetes
-          image: gcr.io/kubernetes-test-290013/redux-saga-kuberenetes@sha256:59682a24b812fa2b00b5d3cae10a2799d5ef3027c14375589b8aa4d8c84c980f
+          image: gcr.io/kubernetes-test-290013/redux-saga-kuberenetes@sha256:be8f7faa04dceb64d590be1f4b2775a461e5dcdc14a914be0e8a994034dd6773
           imagePullPolicy: Always
           ports:
             - containerPort: 80
